@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="MeetNow Registration">30996216471832105e50916a216d4324</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-04 11:49:41</sys_created_on>
+        <sys_id>c4bb04834798f2105e50916a216d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MeetNow Registration.Guest User</sys_name>
+        <sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c4bb04834798f2105e50916a216d43bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 11:49:41</sys_updated_on>
+        <user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

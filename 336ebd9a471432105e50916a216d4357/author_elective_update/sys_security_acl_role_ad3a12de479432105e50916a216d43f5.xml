@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 14:16:56</sys_created_on>
+        <sys_id>ad3a12de479432105e50916a216d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_876909_meetnow_user.x_876909_meetnow.meetnow_owner</sys_name>
+        <sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope>
+        <sys_security_acl display_value="x_876909_meetnow_user">293a12de479432105e50916a216d43cd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ad3a12de479432105e50916a216d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 14:16:56</sys_updated_on>
+        <sys_user_role display_value="x_876909_meetnow.meetnow_owner" name="x_876909_meetnow.meetnow_owner">f36ebd9a471432105e50916a216d4366</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MeetNow">336ebd9a471432105e50916a216d4357</application>
+        <file_path/>
+        <instance_id>66f45fbaeb14ee105a2dfceacad0cde5</instance_id>
+        <instance_name>dev302741</instance_name>
+        <name>sys_security_acl_role_ad3a12de479432105e50916a216d43f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-02 14:16:56</sys_created_on><sys_id>ad3a12de479432105e50916a216d43f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_876909_meetnow_user.x_876909_meetnow.meetnow_owner</sys_name><sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package><sys_policy/><sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope><sys_security_acl display_value="x_876909_meetnow_user">293a12de479432105e50916a216d43cd</sys_security_acl><sys_update_name>sys_security_acl_role_ad3a12de479432105e50916a216d43f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-02 14:16:56</sys_updated_on><sys_user_role display_value="x_876909_meetnow.meetnow_owner" name="x_876909_meetnow.meetnow_owner">f36ebd9a471432105e50916a216d4366</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1414807358</payload_hash>
+        <record_name>x_876909_meetnow_user.x_876909_meetnow.meetnow_owner</record_name>
+        <reverted_from/>
+        <source>7f6ebd9a471432105e50916a216d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 14:16:56</sys_created_on>
+        <sys_id>6d3a12de479432105e50916a216d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199a54882250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 14:16:56</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e13a12de6a94321008e72a1134e258f8</update_guid>
+        <update_guid_history>e13a12de6a94321008e72a1134e258f8:-1414807358</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_876909_meetnow_user.x_876909_meetnow.meetnow_owner">0d7c129247d432105e50916a216d432b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 14:26:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>03091bc6ae1e49b0826d288c80643040</sys_id>
+        <sys_metadata>ad3a12de479432105e50916a216d43f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_876909_meetnow_user.x_876909_meetnow.meetnow_owner</sys_name>
+        <sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package>
+        <sys_parent display_value="">293a12de479432105e50916a216d43cd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope>
+        <sys_scope_delete display_value="">d45d27974dab45908ea94dcaa26bf901</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ad3a12de479432105e50916a216d43f5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ad3a12de479432105e50916a216d43f5">6d3a12de479432105e50916a216d43f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 14:26:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

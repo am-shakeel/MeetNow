@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="faccd69247d432105e50916a216d43f3" label="Member" max_length="40" name="x_876909_meetnow_member" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Presentation Topic" max_length="4000" name="presentation_topic" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="QR Code" max_length="40" name="qr_code" type="user_image"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="T-Shirt Size" max_length="40" name="t_shirt_size" type="string"/>
+        <element label="attended MeetUp before?" max_length="40" name="attended_meetup_before" type="string"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element label="LinkedIn URL" max_length="1024" name="linkedin_url" type="url"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Event" max_length="32" name="event" reference="x_876909_meetnow_event" type="reference"/>
+        <element label="Food" max_length="40" name="food" type="string"/>
+        <element label="ServiceNow Community Profile URL" max_length="1024" name="servicenow_community_profile_url" type="url"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="1" value="confirmed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+            </choice>
+        </element>
+        <element display="true" label="Mail ID" max_length="40" name="mail_id" type="string"/>
+        <element label="Current Role" max_length="40" name="current_role" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <index name="index">
+            <element name="event"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

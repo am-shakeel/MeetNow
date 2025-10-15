@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e720e2d647d432105e50916a216d43ad" label="Event" max_length="40" name="x_876909_meetnow_event" type="collection">
+        <element choice="1" label="Event Type" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="InPerson" sequence="1" value="inperson"/>
+                <element inactive_on_update="false" label="Virtual" sequence="0" value="virtual"/>
+            </choice>
+        </element>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="Co-Sponsor" max_length="40" name="co_sponsor" type="string"/>
+        <element default="100" label="Max participant" max_length="40" name="max_participant" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Venue" max_length="1024" name="venue" type="url"/>
+        <element label="Organizers" max_length="40" name="organizers" reference="x_876909_meetnow_member" type="glide_list"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Registration Open" max_length="40" name="registration_open" type="glide_date_time"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+                <element inactive_on_update="false" label="Upcoming" sequence="0" value="upcoming"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+            </choice>
+        </element>
+        <element label="Banner Image" max_length="40" name="banner_image" type="user_image"/>
+        <element label="Speakers" max_length="40" name="speakers" reference="x_876909_meetnow_member" type="glide_list"/>
+        <element label="Sponsor" max_length="40" name="sponsor" type="string"/>
+        <element label="Agenda" max_length="40" name="agenda" type="html"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
