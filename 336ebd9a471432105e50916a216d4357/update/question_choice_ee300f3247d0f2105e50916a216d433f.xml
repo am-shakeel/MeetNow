@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Status">2faf723247d0f2105e50916a216d433a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-04 06:19:59</sys_created_on>
+        <sys_id>ee300f3247d0f2105e50916a216d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancelled</sys_name>
+        <sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope>
+        <sys_update_name>question_choice_ee300f3247d0f2105e50916a216d433f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 06:19:59</sys_updated_on>
+        <text>Cancelled</text>
+        <value>cancelled</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=ee300f3247d0f2105e50916a216d433f"/>
+</record_update>

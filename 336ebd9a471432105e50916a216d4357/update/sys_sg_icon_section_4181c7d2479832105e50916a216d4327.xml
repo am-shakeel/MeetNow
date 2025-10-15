@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <access_control_type>user_roles</access_control_type>
+        <active>true</active>
+        <applets>4581c7d2479832105e50916a216d4325,fcab4f5247d832105e50916a216d438f</applets>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_feed_count>false</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <orientation>vertical</orientation>
+        <required_roles>x_876909_meetnow.admin,x_876909_meetnow.meetnow_admin,x_876909_meetnow.meetnow_owner,x_876909_meetnow.user,admin</required_roles>
+        <row_count/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 17:08:39</sys_created_on>
+        <sys_id>4181c7d2479832105e50916a216d4327</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Quick Apps</sys_name>
+        <sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope>
+        <sys_update_name>sys_sg_icon_section_4181c7d2479832105e50916a216d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 17:52:53</sys_updated_on>
+        <table/>
+        <title>Quick Apps</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_icon_section>
+</record_update>

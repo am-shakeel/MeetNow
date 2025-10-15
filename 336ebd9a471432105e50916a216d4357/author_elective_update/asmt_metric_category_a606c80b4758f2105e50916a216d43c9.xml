@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=ae06040b4758f2105e50916a216d43cb^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="ae06040b4758f2105e50916a216d43cb"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="">ae06040b4758f2105e50916a216d43cb</metric_type>
+        <name>Testing</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-04 11:25:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a606c80b4758f2105e50916a216d43c9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Testing</sys_name>
+        <sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope>
+        <sys_update_name>asmt_metric_category_a606c80b4758f2105e50916a216d43c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 15:17:45</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>8</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=a606c80b4758f2105e50916a216d43c9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MeetNow">336ebd9a471432105e50916a216d4357</application>
+        <file_path/>
+        <instance_id>66f45fbaeb14ee105a2dfceacad0cde5</instance_id>
+        <instance_name>dev302741</instance_name>
+        <name>asmt_metric_category_a606c80b4758f2105e50916a216d43c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=ae06040b4758f2105e50916a216d43cb^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="ae06040b4758f2105e50916a216d43cb"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="">ae06040b4758f2105e50916a216d43cb</metric_type><name>Testing</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-04 11:25:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a606c80b4758f2105e50916a216d43c9</sys_id><sys_mod_count>11</sys_mod_count><sys_name>Testing</sys_name><sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package><sys_policy/><sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope><sys_update_name>asmt_metric_category_a606c80b4758f2105e50916a216d43c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-04 15:17:45</sys_updated_on><table>asmt_metric_type</table><total_metrics>8</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=a606c80b4758f2105e50916a216d43c9"/></record_update>]]></payload>
+        <payload_hash>-231713647</payload_hash>
+        <record_name>Testing</record_name>
+        <reverted_from/>
+        <source>7f6ebd9a471432105e50916a216d435b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-04 15:17:45</sys_created_on>
+        <sys_id>b34b740f479cf2105e50916a216d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199afcce77c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 15:17:45</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>3b4b740f329cf210468dd15cfa6b3f92</update_guid>
+        <update_guid_history>3b4b740f329cf210468dd15cfa6b3f92:-231713647,e271948b9398f2105f70c4b7a0d87918:1185562006,8b060c0b8a58f210e8bc770b00e53274:1655938090,03060c0b1258f210cfc0e21ee291765f:788885865,fe060c0b7158f210ec97e9c476de4a3c:-78166360,36060c0b7d58f21012dc595368fb1a08:-945218585,7a06c80b2158f210224b36f3b690eff6:-1812270810,7606c80be458f2102eca9fd4ca39f7f1:1615644261,ba06c80b9558f210455952fd4c8a87df:748592036,b606c80b2a58f21025ab509da724bcda:-118460189,2206c80b3158f210a40c8d2c281ff0d5:-985512414,ae06c80b7658f210d7fac81a0b8f1ccd:-315546635</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Testing">445b740f479cf2105e50916a216d43a6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-04 15:17:46</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>01979ac0971c4f8280c28ffa7c31a464</sys_id>
+        <sys_metadata>a606c80b4758f2105e50916a216d43c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Testing</sys_name>
+        <sys_package display_value="MeetNow" source="x_876909_meetnow">336ebd9a471432105e50916a216d4357</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MeetNow">336ebd9a471432105e50916a216d4357</sys_scope>
+        <sys_scope_delete display_value="">d45d27974dab45908ea94dcaa26bf901</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_a606c80b4758f2105e50916a216d43c9</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_a606c80b4758f2105e50916a216d43c9">b34b740f479cf2105e50916a216d4393</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-04 15:17:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
